@@ -1,0 +1,60 @@
+html, body {margin:0;padding:0;height:100%;}
+
+.site-body {
+    background-image: url('assets/vintage-concrete.png'); 
+    background-repeat: repeat;
+    animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1};
+}
+
+.welcome-page-container {
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    margin: 10% 15% 2% 15%;
+}
+
+.image-dimensions {
+    height: 100%;
+    width: 100%;
+}
+
+.image-fade-in {
+    animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1};
+}
+
+
+.enter-link-container {
+    margin-left: 45%;
+}
+
+.enter-link {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.enter-link:hover {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    opacity: .75;
+    transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+}
+
+.enter-link:active {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    opacity: .5;
+}
